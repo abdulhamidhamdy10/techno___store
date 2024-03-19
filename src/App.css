@@ -1,0 +1,2119 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #ECF0F1;
+}
+
+
+
+.navbar{
+  background-color: #ffffff;
+  box-shadow:  5px -10px 20px 10px #000000;
+}
+
+
+.navbar .home {
+  text-align: center;
+  width: 95%;
+}
+
+.navbar .home h1{
+  color: #090909;
+  font-weight: bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: transform 0.3s;
+}
+.navbar .home button span{
+  color: #E23E57;
+  font-weight: bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: transform 0.3s;
+  font-size: 30px;
+}
+.navbar .home h1:hover{
+  color: #E23E57;
+  transform: scale(1.1);
+}
+
+
+.navbar .home .collapse ul {
+  margin-left: 50px;
+}
+.navbar .home .collapse ul li .nav-link{
+  color: #090909;
+  font-weight: bolder;
+  margin-left: 20px;
+  transition: transform 0.3s;
+  font-size: 20px;
+}
+.navbar .home .collapse ul li .nav-link:hover{
+  color: #E23E57;
+  transform: scale(1.1);
+}
+
+
+.navbar .home form button{
+  margin-right: 20px;
+  border-color: #000000;
+  border-radius: 30px;
+
+}
+.navbar .home form button .nav-link{
+  color: #000000;
+
+}
+.navbar .home form button:hover{
+  color: #000000;
+  background-color: #E23E57;
+  border-color: #000000;
+}
+
+
+
+@media only screen and (max-width:720px){
+
+  
+  
+  .navbar .home {
+    text-align: left;
+    width: 95%;
+  }
+  
+  
+  
+  .navbar .home .collapse ul {
+    margin-left: 0px;
+  }
+  .navbar .home .collapse ul li .nav-link{
+    color: #090909;
+    font-weight: bolder;
+    margin-left: 0px;
+    transition: transform 0.3s;
+    /* font-size: 20px; */
+  }
+  .navbar .home .collapse ul li .nav-link:hover{
+    color: #E23E57;
+    transform: scale(1.1);
+  }
+  
+  .navbar .home form button{
+    margin-left: 0px;
+    margin-right: 10px;
+    color: #000000;
+    border-color: #000000;
+    
+  }
+
+  
+}
+/* ****************************************************************************
+/* ****************************************************************************
+/* ****************************************************************************
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** HomePages */
+
+/* headhome  */
+.headhome{
+  padding-top: 100px;
+  
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(60px); 
+  }
+  100% {
+    transform: translateY(0px); 
+  }
+}
+@keyframes movedownup {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-60px); 
+  }
+  100% {
+    transform: translateY(0px); 
+  }
+}
+
+.headhome .rowone img{
+  height: 500px;
+  margin-top: 50px;
+  box-shadow: #000000 5px 5px 10px 2px;
+}
+.headhome .rowone .uptodown{
+  height: 500px;
+  margin-top: 50px;
+  animation: moveUpDown 2s infinite;
+}
+.headhome .rowone .downtoup{
+  height: 500px;
+  margin-top: 50px;
+  animation: movedownup 2s infinite;
+}
+.headhome img{
+  margin-bottom: 33px;
+  transition: transform 0.3s;
+}
+.headhome img:hover{
+  transform: scale(1.1);
+  border-radius: 20px;
+}
+
+.imgheadhomepage{
+  height: 300px;
+  transition: filter 0.5s ease;
+}
+
+.imgheadhomepage:hover{
+  filter: brightness(40%);
+}
+
+.imgheadhomepagemidum{
+  transition: filter 0.5s ease;
+}
+.imgheadhomepagemidum:hover{
+  filter: brightness(40%);
+
+}
+/* headhome  */
+
+
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** */ 
+.bodyhome  {
+background-color: white;
+padding-top: 90px;
+}
+.bodyhome .containerone .rowone {
+  margin-bottom: 50px;
+}
+.bodyhome .containerone .rowone .colone,
+.bodyhome .containerone .rowone .coltwo,
+.bodyhome .containerone .rowone .colthree {
+  border: 1px black solid;
+  box-shadow: 10px 6px 20px 2px black;
+  padding: 70px;
+  margin-bottom: 50px;
+
+}
+
+.bodyhome .containerone .rowone .colone
+ {
+
+  animation-name: bounceInLeft; 
+  animation-duration: 1s; 
+  animation-delay: 0.5s; 
+}
+
+.bodyhome .containerone .rowone .coltwo{
+
+  animation-name: bounceInLeft; 
+  animation-duration: 3s; 
+  animation-delay: 1s; 
+}
+
+.bodyhome .containerone .rowone .colthree {
+  animation-name: bounceInLeft; 
+  animation-duration: 5s; 
+  animation-delay: 2s;
+}
+.bodyhome .containerone .rowone .colone img, 
+.bodyhome .containerone .rowone .coltwo img, 
+.bodyhome .containerone .rowone .colthree img{
+  color: #000000;
+  transition: transform 0.5s ease;
+
+}
+.bodyhome .containerone .rowone .colone img:hover,
+.bodyhome .containerone .rowone .coltwo img:hover,
+.bodyhome .containerone .rowone .colthree img:hover{
+  transform: scale(1.2);
+}
+
+
+
+
+.bodyhome .containerone .rowone  {
+  padding-bottom: 50px;
+
+}
+.bodyhome .containerone .rowone col {
+  margin: 0px 60px;
+  
+
+}
+
+.bodyhome .containerone .rowone .colfour{
+  border: 1px black solid;
+  box-shadow: 10px 6px 20px 2px black;
+  animation-name: bounceInLeft; 
+  animation-duration: 4s; 
+  animation-delay: 0.5s; 
+}
+.bodyhome .containerone .rowone .colfive {
+  margin-top: 0px;
+  border: 1px black solid;
+  box-shadow: 10px 6px 20px 2px black;
+  padding: 30px 0px;
+  animation-name: bounceInLeft; 
+  animation-duration: 5s; 
+  animation-delay: 0.5s; 
+
+}
+.bodyhome .containerone .rowone .colsix {
+  border: 1px black solid;
+  box-shadow: 10px 6px 20px 2px black;
+  padding: 87px 0px;
+  animation-name: bounceInLeft; 
+  animation-duration: 6s; 
+  animation-delay: 0.5s; 
+}
+
+.bodyhome .containerone .rowone .colfour img,
+.bodyhome .containerone .rowone .colfive img,
+.bodyhome .containerone .rowone .colsix img{
+  color: #000000;
+  transition: transform 0.5s ease;
+
+}
+.bodyhome .containerone .rowone .colfour img:hover,
+.bodyhome .containerone .rowone .colfive img:hover,
+.bodyhome .containerone .rowone .colsix img:hover{
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width:720px){
+  
+   
+    .bodyhome .containerone .rowone .colone,
+    .bodyhome .containerone .rowone .coltwo,
+    .bodyhome .containerone .rowone .colthree {
+      border: 1px black solid;
+      box-shadow: 10px 6px 20px 2px black;
+      padding: 30px;
+      margin-bottom: 50px;
+    }
+
+    
+    .bodyhome .containerone .rowone  {
+      padding-bottom: 50px;
+    
+    }
+    .bodyhome .containerone .rowone col {
+      margin: 0px 60px;
+      
+    
+    }
+    
+    .bodyhome .containerone .rowone .colfour{
+      border: 1px black solid;
+      box-shadow: 10px 6px 20px 2px black;
+
+    }
+    .bodyhome .containerone .rowone .colfive {
+      margin-top: 0px;
+      border: 1px black solid;
+      box-shadow: 10px 6px 20px 2px black;
+      padding: 30px 0px;
+    
+    }
+    .bodyhome .containerone .rowone .colsix {
+      border: 1px black solid;
+      box-shadow: 10px 6px 20px 2px black;
+      padding: 60px 0px;
+    
+    }
+    
+    .bodyhome .containerone .rowone .colfour img,
+.bodyhome .containerone .rowone .colfive img,
+.bodyhome .containerone .rowone .colsix img{
+      color: #000000;
+      transition: transform 0.5s ease;
+    
+    }
+    .bodyhome .containerone .rowone .colfour img:hover,
+.bodyhome .containerone .rowone .colfive img:hover,
+.bodyhome .containerone .rowone .colsix img:hover{
+      transform: scale(0.9);
+    }
+}
+
+
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** */ 
+
+/* sectionhome  */
+.section{
+  background-color: #ffffff;
+  padding-bottom: 200px;
+}
+
+/* .section img .imgone, .imgtwo, .imgthree, .imgfour{
+  margin-bottom: 50px;
+  transition: transform 0.3s;
+  height: 250px;
+  width: 250px;
+
+} */
+.section img {
+  transition: transform 0.3s;
+  margin-bottom: 200px;
+  /* margin-right: 200px; */
+
+}
+.section img .imgone{
+  height: 200px;
+  width: 200px;
+}
+.section img .imgtwo{
+  height: 200px;
+  width: 200px;
+
+}
+.section img .imgthree{
+  height: 200px;
+  width: 200px;
+
+}
+.section img .imgfour{
+  height: 200px;
+  width: 200px;
+
+}
+.section img .imgfive{
+  height: 100px;
+  width: 100px;
+
+}
+
+
+/* @keyframes moveimgone {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(300px, 0); 
+  }
+  50% {
+    transform: translate(300px, 400px); 
+  }
+  75% {
+    transform: translate(0px, 400px); 
+  }
+  100% {
+    transform: translate(0, 0); 
+  }
+}
+@keyframes moveimgtwo {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(0px , -400px); 
+  }
+  50% {
+    transform: translate(300px, -400px); 
+  }
+  75% {
+    transform: translate(300px, 0px); 
+  }
+  100% {
+    transform: translate(0, 0); 
+  }
+}
+@keyframes moveimgthree {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(0px, 400px); 
+  }
+  50% {
+    transform: translate(-300px, 400px); 
+  }
+  75% {
+    transform: translate(-300px, 0); 
+  }
+  100% {
+    transform: translate(0, 0); 
+  }
+}
+@keyframes moveimgfour {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(-300px, 0px); 
+  }
+  50% {
+    transform: translate(-300px, -400px); 
+  }
+  75% {
+    transform: translate(0px, -400px); 
+  }
+  100% {
+    transform: translate(0px, 0px); 
+  }
+} */
+
+
+
+.section .imgone{
+
+  animation: moveimgone 3s infinite
+}
+.section .imgtwo{
+  animation: moveimgtwo 3s infinite
+
+}
+.section .imgthree{
+
+  animation: moveimgthree 3s infinite
+  
+}
+.section .imgfour{
+
+  animation: moveimgfour 3s infinite
+}
+.section img:hover{
+  transform: scale(1.1);
+
+  /* box-shadow: 10px 15px 30px 10px #ffbb00 */
+
+}
+.section button{
+  /* background-color: #E23E57; */
+  border: 3px solid #E23E57;
+  font-weight: bolder;
+  font-size: 60px;
+  border-radius: 50px;
+  padding: 5px 15px;
+  transition: transform 0.3s;
+
+}
+.section button:hover{
+  border: 3px solid #ffffff;
+  background-color: #E23E57;
+  transform: scale(1.1);
+  /* border-radius: 20px; */
+}
+
+@media only screen and (max-width:720px){
+  .section img{
+
+  
+  }
+
+  .section .imgone{
+
+width: 200px;
+height: 200px;  
+}
+  .section .imgtwo{
+    width: 200px;
+    height: 200px;   
+    margin-left: 30px;
+  }
+  .section .imgthree{
+  
+    width: 200px;
+    height: 250px;  
+  }
+  .section .imgfour{
+    margin-left: 30px;
+  
+    width: 200px;
+    height: 100px;  
+  }
+  
+}
+/* sectionhome  */
+
+
+
+/* sectiontwohome  */
+.sectiontwo img{
+  margin-bottom: 50px;
+  transition: transform 0.3s;
+}
+.sectiontwo img:hover{
+  transform: scale(0.8);
+  border-radius: 20px;
+}
+
+.sectiontwo .watch img{
+  margin-bottom: 45px;
+}
+
+
+.sectionthree {
+  margin-bottom: 200px;
+  padding-top: 100px;
+}
+.sectionthree .headphones img{
+ margin: auto;
+  margin-left: 200px;
+ 
+}
+.sectionthree .headphones button{
+  border: 3px solid #E23E57;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: 60px;
+  border-radius: 50px;
+  /* padding: 5px 15px; */
+  transition: transform 0.3s;
+  width: 30%;
+  margin-left: 550px;
+}
+.sectiontwo button{
+  border: 3px solid #E23E57;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: 60px;
+  border-radius: 50px;
+  padding: 5px 15px;
+  transition: transform 0.3s;
+}
+
+.sectiontwo button:hover{
+  border: 3px solid #ffffff;
+  background-color: #E23E57;
+  transform: scale(1.1);
+  /* border-radius: 20px; */
+}
+
+
+@media only screen and (max-width:720px){
+  .sectiontwo .Phones2 img{
+    width: 150px;
+    margin-bottom: 30px;
+    margin-left: 140px;
+  }
+  .sectiontwo button{
+   margin-left: 140px;
+  }
+
+  .sectionthree .headphones button{
+    margin-left: 110px;
+    width: 60%;
+   
+  }
+
+
+  .sectionthree .headphones img{
+    margin-left: 130px;
+    width: 200px;
+    height: 200px;
+   
+  }
+
+  .sectiontwo .watch .apple{
+    width: 150px;
+    margin-left: 150px;
+  }
+}
+/* sectiontwohome  */
+
+
+/* sectionthreehome  */
+.Phones, .headphones, .airbods, .watch{
+  background-color: #ffffff;
+}
+
+.sectionthree button{
+  border: 3px solid #E23E57;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: 60px;
+  border-radius: 50px;
+  padding: 5px 15px;
+  transition: transform 0.3s;
+}
+
+.sectionthree button:hover{
+  border: 3px solid #ffffff;
+  background-color: #E23E57;
+  transform: scale(1.1);
+  /* border-radius: 20px; */
+}
+
+
+
+.headphones img{
+  width : 300px ;
+  margin-bottom: 163px;
+}
+
+.airbods img{
+  margin-bottom: 230px;
+
+}
+
+.sectionthree img{
+  
+  transition: transform 0.3s;
+}
+.sectionthree img:hover{
+  transform: scale(0.8);
+  border-radius: 20px;
+}
+/* sectionthreehome  */
+
+
+
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** */
+/* Footer  */
+.footer{
+  background-color: rgb(24, 18, 18);
+  color: #ffffff;
+
+}
+
+
+.icons{
+  text-align: right;
+  color:#E23E57;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+
+
+.footer hr{
+  height: 2px;
+  background-color:#E23E57;
+}
+.contentfooter h6{
+  margin-bottom: 15px;
+}
+
+.contentfooter p{
+  
+  color: #a4a7a8;
+
+}
+
+.endfooter{
+  text-align: right;
+}
+
+@media only screen and (max-width:720px){
+  .footer{
+    text-align: left;
+  }
+
+  .icons{
+    text-align: left;
+
+  }
+  
+  .contentfooter h6{
+    margin-bottom: 15px;
+  }
+  
+  .contentfooter p{
+    text-align: left;
+    color: #a4a7a8;
+  
+  }
+  
+}
+
+
+
+/* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** LABTOPS Page*/
+
+/* HeadLabtops */
+.image-container .carousel .carousel-inner  .carousel-caption  {
+  /* background-color: #181414; */
+  padding: 10px 20px;
+  width: 50%;
+  margin: auto;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.image-container .carousel .carousel-inner  .carousel-caption p, h5 {
+  font-weight: 700;
+  color: #E23E57;
+  font-size: 20px;
+}
+.image-container .carousel .carousel-inner  .carousel-item img {
+height: 650px;
+}
+
+.image-container .carousel .carousel-indicators button {
+padding: 2px 10px;
+margin: 0px 2px;
+background-color:#E23E57;
+}
+
+.image-container .carousel .carousel-indicators button:hover {
+padding: 2px 10px;
+margin: 0px 2px;
+background-color:#000000;
+border-color: #E23E57;
+}
+
+.image-container .carousel  button {
+/* padding: 2px 10px;
+margin: 0px 2px; */
+color:#E23E57;
+}
+
+@media only screen and (max-width:720px){
+
+.image-container .carousel .carousel-inner  .carousel-item img {
+height: 350px;
+}
+}
+
+
+
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** */
+
+/* Sectionlabtops */
+.Sectionlabtops{
+  text-align: center;
+  background-color: #ffffff;
+}
+.Sectionlabtops .images img{
+  margin-top: 200px;
+  margin-bottom: 30PX;
+  width: 150px;
+  height: 150px;
+}
+
+.Sectionlabtops .dell .text {
+  margin-top: 100px;
+ background-color: #262020;
+ border-color: aqua;
+ border-top-right-radius:300px ;
+ border-bottom-left-radius:300px ;
+
+
+
+}
+.Sectionlabtops .text img{
+
+transition: transform 0.3s;
+
+}
+
+.Sectionlabtops .text img:hover{
+  transform: scale(1.2);
+}
+
+.Sectionlabtops h6{
+  margin-bottom: 20px;
+
+}
+
+
+.Sectionlabtops .images .a{
+  display: inline-block;
+  margin-top: 10px;
+
+}
+
+.Sectionlabtops .apple .images img{
+  margin-top: 100px;
+
+}
+
+.Sectionlabtops .apple .text {
+  margin-top: 100px;
+}
+
+.Sectionlabtops .logo{
+  width: 300px;
+  height: 150px;
+}
+
+
+
+.Sectionlabtops .lenovo {
+  margin-bottom: 50px;
+  background-color: #262020;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.Sectionlabtops .lenovo  img {
+  transition: transform 0.3s;
+  width: 100%;
+  margin-top: 50px;
+}
+.Sectionlabtops .lenovo  img:hover {
+ transform: scale(1.2);
+}
+.Sectionlabtops .lenovo  .logo {
+  width: 40%;
+margin-top: 50px;
+}
+.Sectionlabtops .lenovo {
+  color: #ffffff;
+padding-bottom: 30px;
+}
+
+
+
+.Sectionlabtops .asus {
+  margin-bottom: 50px;
+  background-color: #262020;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.Sectionlabtops .asus  img {
+  transition: transform 0.3s;
+  width: 100%;
+margin-top: 50px;
+}
+.Sectionlabtops .asus  img:hover {
+  transform: scale(1.2);
+}
+.Sectionlabtops .asus  .logo {
+  width: 40%;
+  height: 100px;
+margin-top: 50px;
+}
+.Sectionlabtops .asus {
+  color: #ffffff;
+padding-bottom: 30px;
+}
+
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** */
+
+
+/* Elementlabtops  */
+
+.elementlabtops img{
+  height: 700px;
+}
+
+/* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** WATCHEPAGES*/
+
+/* Headwatch */
+
+
+.headwatch{
+  text-align: center;
+}
+.headwatch h1, h6, button{
+  margin-top: 20px;
+  
+}
+.headwatch h1{
+  margin-top: 60px;
+  font-size: 70px;
+font-weight: 600;  
+}
+.headwatch button{
+  transition: transform 0.3s;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 15px;
+  border:2px #000000 solid;
+}
+.headwatch button:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+.headwatch img{
+  display: inline-block;
+width: 800px;
+height: 670px;
+}
+
+
+.headwatch .hand {
+  /* font-weight: 100; */
+margin-top: 100px;
+
+}
+.headwatch .hand b{
+  font-size: 20px;
+  color: #000000;
+
+}
+.headwatch .hand h6{
+  line-height: 30px;
+  color: #000000;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.headwatch .hand h1{
+
+  font-size: 110px;
+  font-weight: 700;
+
+}
+
+
+@media only screen and (max-width:720px){
+  .headwatch img{
+    display: inline-block;
+  width: 400px;
+  height: 400px;
+  }
+  }
+
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** */
+/* Sectionwatch  */
+
+.watch2{
+  background-color: #ffffff;
+}
+.sectionwatch h2{
+  margin-top: 60px;
+  font-weight:700;
+}
+
+.sectionwatch h6{
+  padding-right: 150px;
+  line-height: 25px;
+  margin-bottom: 60px;
+}
+
+.sectionwatch h3{
+  padding: 35px 10px;
+  /* width: 50%; */
+  margin-bottom: 20px;
+  background-color: #ECF0F1;
+  border-radius: 25px;
+}
+
+.sectionwatch .processor{
+  margin-top: 30px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.sectionwatch .img1 img{
+  height: 200px;
+  width: 350px;
+  margin-top: 30px;
+
+}
+.sectionwatch .img2 {
+  width: 400px;
+  height: 350px;
+  margin-top: 30px;
+}
+
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** */
+/* contentwatch */
+
+
+.watch3{
+  background-color: #000000;
+}
+
+.contentwatch .rowone h1{
+  margin-top: 180px;
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 70px;
+  margin-bottom: 90px;
+}
+
+.contentwatch .rowone h6{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 25px;
+}
+
+
+
+.contentwatch .rowtwo  .col1 {
+  background-color: #161616;
+  border-radius: 30px;
+  margin-top: 30px;
+
+}
+.contentwatch .rowtwo .col1 img{
+  height: 230px;
+  width: 200px;
+}
+.contentwatch .rowtwo .col1 h5{
+  margin-top: 20px;
+  font-size: 15px;
+  color: #ffffff;
+}
+.contentwatch .rowtwo  .col1 h2{
+  font-weight: 700;
+  color: #ffffff;
+}
+.contentwatch .rowtwo  .col1 h6{
+  color: #686868;
+ 
+  margin-top: 30px;
+}
+.contentwatch .rowtwo .col1  button{
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: solid 2px #ffffff;
+  border-radius: 30px;
+}
+
+
+
+.contentwatch .rowtwo  .col2 {
+  background-color: #161616;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+.contentwatch .rowtwo  .col2 img{
+ width: 230px;
+ height: 230px;
+}
+.contentwatch .rowtwo  .col2 h2{
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 10px;
+
+}
+.contentwatch .rowtwo  .col2 h5{
+  color: #ffffff;
+  font-size: 15px;  
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+
+
+.contentwatch .rowthree{
+  margin-top: 180px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contentwatch .rowthree h1{
+font-size: 140px;
+}
+.contentwatch .rowthree h3{
+font-size: 60px;
+}
+
+
+.watch3 .rowfour h6{
+  background-image: url("../public/images/gray-scale-shot-black-watch.jpg");
+  padding-top: 300px;
+  padding-bottom: 300px;
+  background-position: center;
+}
+
+@media only screen and (max-width:720px){
+  .contentwatch .rowtwo  .col1 {
+    background-color: #161616;
+    border-radius: 30px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .contentwatch .rowtwo .col1  button{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: solid 2px #ffffff;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+  }
+
+/* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** PHONEPAGES*/
+
+
+/* Headphone */
+
+.phone1{
+  background-image: url("../public/images/iPhone-13-Pro-matte-black-2.jpg");
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.headphone .row1 .col1{
+  transform: scaleX(-1);
+
+  margin-right: auto;
+  margin-top: 160px;
+  color: #ffffff;
+  margin-bottom: 220px;
+}
+.headphone .row1 .col1 h1{
+font-size: 70px;
+font-weight: 700;
+}
+
+
+
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** */
+/* Sectionphone */
+
+
+
+.phone2 {
+padding-top: 100px;
+background-color:#ECF0F1;
+  
+}
+.phone2 .sectionphone .row1 .col1 img{
+  width: 180px;
+  height: 100px;
+  margin-left: 560px;
+  
+}
+.phone2 .sectionphone .row1 .col1 h1{
+  font-size: 80px;
+text-align: center;
+}
+
+
+
+.phone2 .sectionphone .row2 h2{
+  margin-bottom: 100px;
+  font-weight: 600;
+}
+.phone2 .sectionphone .row2 h6{
+  padding-top: 40px;
+
+}
+
+.phone2 .sectionphone .row2 .col1, .col2, .col3{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.phone2 .sectionphone .row2 .col1{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.phone2 .sectionphone .row2 .col1 img{
+  height: 280px;
+  width: 240px;
+}
+.phone2 .sectionphone .row2 .col2 img{
+  height: 390px;
+  width: 240px;
+}
+.phone2 .sectionphone .row2 .col3 img{
+  height: 390px;
+  width: 240px;
+}
+
+
+
+.phone2 .sectionphone .row3{
+  background-color: #ffffff;
+  text-align: center;
+}
+.phone2 .sectionphone .row3 .col1 h1{
+  font-weight: 600;
+  font-size: 80px;
+  margin-top: 200px;
+}
+
+
+
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** */
+/* contentphone */
+.phone3 .cotentphone{
+  /* background-color: antiquewhite; */
+  padding-top: 100px;
+}
+.phone3 .cotentphone .row1 .col2 img{
+  width: 600px;
+  height: 300px;
+  margin-left: 100px;
+}
+.phone3 .cotentphone .row1 .coltwo img{
+  margin-top: 50px;
+  width: 500px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+@media only screen and (max-width:720px){
+  .phone3 .cotentphone{
+    /* background-color: antiquewhite; */
+    padding-top: 100px;
+  }
+  .phone3 .cotentphone .row1 .col2 img{
+    width: 600px;
+    height: 300px;
+    margin-left: 100px;
+  }
+  .phone3 .cotentphone .row1 .coltwo img{
+    margin-top: 50px;
+    width: 430px;
+    height: 300px;
+    margin-left: 10px;
+  }
+  }
+
+
+
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** */
+/* contentphonetwo */
+
+
+.phone4 {
+  background-color: #000000;
+  color: #ffffff;
+}
+.phone4 .contentphonetwo .row1 .col1{
+  text-align: center;
+  padding-top: 100px;
+}
+.phone4 .contentphonetwo   .row1 .col1 h1{
+  font-size: 60px;
+  font-weight: 600;
+
+}
+.phone4 .contentphonetwo   .row1 .col1 h5{
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+
+}
+.phone4 .contentphonetwo  .row1 .col1 h6{
+  margin-top: 60px;
+
+}
+.phone4 .contentphonetwo  .row1 .col1 img{
+  height: 800px;
+  width: 1300px;
+
+}
+
+
+.phone4 .contentphonetwo  .row2 {
+  margin-top: 170px;
+}
+.phone4 .contentphonetwo  .row2 .coltwo .buttons{
+  margin-top: 100px;
+  border-radius: 30px;
+  padding: 30px 0px 0px 0px;
+  background-color: #2b2c35;
+}
+.phone4 .contentphonetwo  .row2 .coltwo .buttons h3{
+  border-radius: 30px;
+  padding: 30px 0px 0px 30px;
+  background-color: #212225;
+}
+.phone4 .contentphonetwo  .row2 .coltwo .buttons h4{
+margin-left: 20px;
+margin-bottom: 20px;
+}
+
+
+@keyframes moveRightLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(700px); 
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-700px); 
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}
+
+.phone4 .contentphonetwo  .row3 {
+  margin-top: 170px;
+  padding-bottom: 100px;
+}
+.phone4 .contentphonetwo  .row3  .col1 img{
+ height: 400px;
+ margin-bottom: 30px;
+ animation: moveRightLeft 2s infinite;
+}
+.phone4 .contentphonetwo  .row3  .coltwo img{
+ height: 400px;
+ animation: moveLeftToRight 2s infinite;
+}
+
+
+@media only screen and (max-width:720px){
+
+  .phone4 .contentphonetwo  .row1 .col1 img{
+    height: 500px;
+    width: 500px;
+  
+  }
+  
+  
+  .phone4 .contentphonetwo  .row2 {
+    margin-top: 170px;
+  }
+  .phone4 .contentphonetwo  .row2 .coltwo .buttons{
+    margin-top: 100px;
+    border-radius: 30px;
+    padding: 30px 0px 0px 0px;
+    background-color: #2b2c35;
+  }
+  .phone4 .contentphonetwo  .row2 .coltwo .buttons h3{
+    border-radius: 30px;
+    padding: 30px 0px 0px 30px;
+    background-color: #212225;
+  }
+  .phone4 .contentphonetwo  .row2 .coltwo .buttons h4{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  }
+  
+  
+  
+  .phone4 .contentphonetwo  .row3 {
+    margin-top: 170px;
+    padding-bottom: 100px;
+  }
+  .phone4 .contentphonetwo  .row3  .col1 img{
+   height: 400px;
+   margin-bottom: 30px;
+   animation: moveRightLeft 2s infinite;
+  }
+  .phone4 .contentphonetwo  .row3  .coltwo img{
+   height: 400px;
+   animation: moveLeftToRight 2s infinite;
+  }
+  }
+
+
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** */
+/* mainphone */
+
+.phone5 .mainphone .rowone .colone h1{
+  margin-top: 100px;
+ text-align: center;
+ font-size: 50px;
+ font-weight: 600;
+}
+.phone5 .mainphone .rowone .colone h4{
+ text-align: center;
+ margin-bottom: 200px;
+ margin-top: 20px;
+
+}
+.phone5 .mainphone .rowtwo .colone h1{
+margin-top: 200px;
+text-align: center;
+ margin-bottom: 50px;
+ font-weight: 700;
+ font-size: 50px;
+
+}
+
+
+
+.phone5 .mainphonetwo .rowone .colone {
+  background-color: #ffffff;
+  padding: 0px 8px 8px 8px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.phone5 .mainphonetwo .rowone  .coltwo {
+  background-color: #ffffff;
+  padding: 0px 8px 8px 8px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.phone5 .mainphonetwo .rowone .colthree {
+  background-color: #ffffff;
+  padding: 0px 8px 8px 8px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.phone5 .mainphonetwo .rowone .colone h3{
+  text-align: center;
+  padding: 30px 0px 30px;
+  
+}
+.phone5 .mainphonetwo .rowone .coltwo h3{
+  text-align: center;
+  padding: 30px 0px 30px;
+}
+.phone5 .mainphonetwo .rowone .colthree h3{
+  text-align: center;
+  padding: 30px 0px 30px;
+}
+
+.phone5 .mainphonetwo .rowone .colone img{
+  height: 400px;
+  border-radius: 20px;
+
+
+  
+}
+.phone5 .mainphonetwo .rowone .coltwo img{
+  height: 400px;
+  border-radius: 20px;
+
+
+}
+.phone5 .mainphonetwo .rowone .colthree img{
+  height: 400px;
+  border-radius: 20px;
+
+}
+
+
+
+/* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** HEADPHONEPAGES*/
+
+/* Headheadphone */
+
+.headphone1 .headheadphone .rowone .colone img{
+  height: 600px;
+}
+
+
+.headphone1 .headheadphone .rowone .coltwo h1{
+font-size: 60px;
+font-weight: 700;
+text-align: center;
+margin-top: 80px;
+}
+.headphone1 .headheadphone .rowone .coltwo h5{
+  color: #000000;
+font-weight: 400;
+text-align: center;
+margin-top: 40px;
+}
+
+
+
+
+.headphone1 .headheadphone .rowtwo {
+margin-top: 200px;
+}
+.headphone1 .headheadphone .rowtwo .colone{
+  background-color: rgb(236, 126, 0);
+  border-radius: 30px;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+
+.headphone1 .headheadphone .rowtwo .coltwo {
+  padding: 0px 0px 0 20px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.headphone1 .headheadphone .rowtwo .coltwo h1{
+  padding-top: 200px;
+  font-size: 70px;
+  font-weight: 600;
+}
+.headphone1 .headheadphone .rowtwo .coltwo h5{
+  font-weight: 500;
+  padding: 0 250px 0 0;
+  padding-bottom: 165px;
+  color: #878686;
+}
+
+
+
+
+.headphone1 .headheadphone .rowthree {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.headphone1 .headheadphone .rowthree .colone img{
+  height: 600px;
+  width: 700px;
+}
+.headphone1 .headheadphone .rowthree .coltwo h1{
+  font-size: 70px;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.headphone1 .headheadphone .rowthree .coltwo h5{
+  margin-left: 30px;
+  padding-right: 230px;
+  color: #878686;
+
+}
+
+@media only screen and (max-width:720px){
+
+
+  .headphone1 .headheadphone .rowtwo .coltwo h5{
+    font-weight: 500;
+    padding: 0 50px 0 0;
+    padding-bottom: 165px;
+    color: #878686;
+    margin-top: 30px;
+  }
+
+  .headphone1 .headheadphone .rowthree .colone img{
+    height: 600px;
+    width: 600px;
+  }
+
+  .headphone1 .headheadphone .rowthree .coltwo h5{
+    margin-left: 30px;
+    padding-right: 30px;
+    color: #878686;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  
+  }
+  }
+
+
+
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** */
+/* contentheadphone */
+
+.headphone2{
+  background-color: #000000;
+  margin-top: 100px;
+}
+
+/* ROWONE  */
+.headphone2 .contentheadphone .rowone .colone h4{
+  margin-top: 100px;
+  color: #d5d7d7;
+}
+
+.headphone2 .contentheadphone .rowone .colthree h4{
+  margin-top: 400px;
+  color: #d5d7d7;
+}
+/* ROWONE  */
+
+
+
+/* ROWTWO  */
+  
+  /* COLONE  */
+.headphone2 .contentheadphone .rowtwo {
+  margin-top: 200px;
+  color: #ffffff;
+}
+.headphone2 .contentheadphone .rowtwo .colone h3{
+  font-size: 30px;
+  font-weight: 700;
+}
+.headphone2 .contentheadphone .rowtwo .colone h1{
+  font-size: 120px;
+  font-weight: 700;
+}
+  /* COLONE  */
+
+  /* COLTHREE  */
+.headphone2 .contentheadphone .rowtwo .colthree h3{
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+  /* COLTHREE  */
+
+/* ROWTWO  */
+
+
+
+@media only screen and (max-width:720px){
+
+  .headphone2 .contentheadphone .rowtwo .colone h1{
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+  .headphone2 .contentheadphone .rowtwo .colthree h3{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  }
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** */
+/* mainheadphone */
+
+.headphone3 {
+background-color: #000000;
+} 
+
+/* MAINHEADPHONE */
+  /* ROWONE  */
+.headphone3 .mainheadphone .rowone .colone{
+  text-align: center;
+  margin-top: 200px;
+  color: #ffffff;
+} 
+
+.headphone3 .mainheadphone .rowone .colone h1{
+ font-size: 60px;
+ font-weight: 700;
+
+} 
+.headphone3 .mainheadphone .rowone .colone h5{
+ font-weight: 400;
+ color: #ffffff;
+margin-top: 30px;
+} 
+.headphone3 .mainheadphone .rowone .colone h6{
+ font-weight: 400;
+ color: #ffffff;
+margin-top: 30px;
+font-size: 10px;
+margin-bottom: 30px;
+} 
+.headphone3 .mainheadphone .rowone .colone img{
+} 
+  /* ROWONE  */
+/* MAINHEADPHONE */
+
+
+
+/* MAINHEADPHONE2 */
+  /* ROWONE  */
+.headphone3 .mainheadphone2 .rowone{
+  margin-top: 200px;
+  color: #ffffff;
+padding-bottom: 100px;
+margin-bottom: 100px;
+} 
+
+
+.headphone3 .mainheadphone2 .rowone .colone h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 100px;
+} 
+
+.headphone3 .mainheadphone2 .rowone .colone h5 {
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+  color: #ffffff;
+} 
+.headphone3 .mainheadphone2 .rowone .colone i {
+font-size: 10px;
+} 
+  /* ROWONE  */
+/* MAINHEADPHONE2 */
+
+
+.scrolltotop{
+  background-color: #E23E57;
+}
+
+
+/* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** PRODUCTSPAGE*/
+
+.products{
+  margin-top: 50px;
+}
+.products .rowone .colone{
+  background-color: #ffffff;
+  text-align: center;
+  /* border-radius: 20px; */
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  /* border: #000000 3px solid; */
+  height: 700px;
+  padding-top: 20px;
+}
+
+
+.products .rowone .colone img{
+height: 200px;
+width: 200px;
+margin-top: 30px;
+transition: transform 0.6s;
+
+
+}
+.products .rowone .colone img:hover{
+height: 200px;
+width: 200px;
+margin-top: 30px;
+transform: scale(1.2);
+}
+.products .rowone .colone button{
+background-color: #5f61fa;
+padding: 10px 20px;
+box-shadow:  0px 0px 20px 10px #090909;
+transition: transform 0.6s;
+border-radius: 10px;
+margin-top: 40px;
+color: #ffffff;
+
+}
+.products .rowone .colone button:hover{
+background-color: #000000;
+padding: 10px 20px;
+box-shadow:  0px 0px 20px 10px #696bf8;
+color: #696bf8;
+transform: scale(1.2);
+}
+
+
+.products .rowone .colone h6{
+    margin:10px 30px ;
+    line-height: 25px;
+  
+  }
+.products .rowone .colone h1{
+  font-weight: 600;
+}
+.products .rowone .colone .fa-solid {
+    font-size: 60px;
+    color: #ffbb00;
+
+  }
+
+
+  /* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** TABLEPAGE*/
+
+
+.tablecart table{
+  margin-top: 40px;
+  background-color: #e3e5e5;
+  border: #000000 3px solid;
+  max-height: 300px; 
+  overflow:auto; 
+  
+}
+
+.tablecart .rowone .colone table tbody td h1{
+ font-size: 30px;
+ margin-top: 10px;
+}
+.tablecart .rowone .colone table tbody td img{
+  height: 100px;
+  width: 100px;
+}
+.tablecart .rowone .colone table thead th{
+  margin-bottom: 30px;
+}
+.tablecart .rowone .colone table tbody button{
+  padding: 5px 20px;
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: 600;
+transition: transform 0.6s;
+background-color: #261a1a;
+color: #ffffff;
+
+}
+
+.tablecart .rowone .colone table tbody button:hover{
+  background-color: #E23E57;
+  transform: scale(1.3);
+
+}
+
+
+
+.tablecart .rowone .coltwo{
+  margin-bottom: 50px;
+}
+
+
+
+@media only screen and (max-width:720px){
+
+  .tablecart {
+    padding-bottom: 100px;
+  }
+  .tablecart .table{
+    padding-bottom: 100px;
+  }
+
+  .tablecart .rowone .colone table thead th{
+    margin-bottom: 30px;
+    font-size: 10px;
+    width: 60%;
+
+  }
+/* 
+  .tablecart .rowone .colone table tbody td{
+    font-size: 10px;
+    font-weight: 600;
+  } */
+  .tablecart .rowone .colone table tbody td img{
+    height: 50px;
+    width: 50px;
+  }
+
+  .tablecart .rowone .colone table tbody td h1{
+    font-size: 20px;
+    margin-top: 10px;
+   }
+  .tablecart .rowone .colone table tbody button{
+    padding: 5px 20px;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+  transition: transform 0.6s;
+  background-color: #261a1a;
+  color: #ffffff;
+  
+  }
+  
+  .tablecart .rowone .colone table tbody button:hover{
+    background-color: #E23E57;
+    transform: scale(1.3);
+  
+  }
+  
+  
+  .tablecart .rowone .coltwo{
+    margin-bottom: 50px;
+  }
+
+}
+
+
+  /* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* ****************************************************************************
+**************************************************************************** */
+/* **************************************************************************** LOGINPAGE*/
+.login{
+  background-image: url("/public/images/pexels-nao-triponez-129208.jpg");
+  background-size: cover;
+}
+
+
+.form .rowone .colone form{
+
+/* background-color: #d9d9dc; */
+backdrop-filter: blur(13px);
+padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  border: #ffffff 2px solid;
+  width: 60%;
+  color: white;
+  margin-bottom: 150px;
+  /* outline:  #E23E57 2px solid; */
+}
+
+.form .rowone .colone form .form-group{
+    margin-bottom: 20px;
+}
+.form .rowone .colone form .form-group h5{
+color: #ffffff;
+}
+
+.form .rowone .colone form input{
+  text-align: center;
+padding:  10px 0;
+border-radius: 0px;
+display: inline-block;
+border: #E23E57 1px solid;
+}
+.form .rowone .colone form label{
+/* border-radius: 20px; */
+display: inline-block;
+}
+
+.form .rowone .rowtwo h1{
+margin-top: 500px;  
+color: white;
+font-weight: bolder;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+transition: transform 0.3s;
+}
+
+.form .rowone .colone form .colone button{
+  width: 100%;
+  color: white;
+  width: 50%;
+}
+
+.form .rowone .colone form .coltwo button{
+  width: 100%;
+  background-color: #ff2a00;
+  color: white;
+
+  /* background-color: #ffbb00; */
+}
+.form .rowone .colone form .colthree button{
+  width: 100%;
+  background-color: #0095ff;
+  color: white;
+
+  /* background-color: #ffbb00; */
+}
+
+.form .rowone .rowtwo h2{
+  text-align: center;
+  font-size: 60px;
+  animation: moveLeftToRight 0.5s infinite;
+  margin-top: 40px;
+
+  
+}
+.form .rowone .rowtwo h3{
+ display: none;
+
+  
+}
+
+
+
+/* @keyframes moveLeftToRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px); 
+  }
+  100% {
+    transform: translateX(0); 
+  }
+} */
+
+@media only screen and (max-width:720px){
+
+    .form .rowone .rowtwo h2{
+    display: none;
+  }
+
+  .form .rowone .rowtwo h3{
+    animation: moveLeftToRight 0.5s infinite;
+    text-align: center;
+    margin: 50px 0;
+    display: block;
+     font-size: 40px;
+
+  }
+
+  .form .rowone .colone form{
+
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding-left: 40px;
+  }
+ .form .rowone .colone form  button{
+
+    width: 100%;
+    /* background-color: #ffbb00; */
+  }
+
+  .form .rowone .colone form .form-group h5{
+    /* margin: 0px 0 0 -40px;       */
+    margin-left: -30px;
+    margin-bottom: -45px;
+  }
+
+  /* @keyframes moveLeftToRight {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateY(50px); 
+    }
+    100% {
+      transform: translateX(0); 
+    }
+  } */
+}
