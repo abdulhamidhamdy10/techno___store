@@ -8,7 +8,7 @@ function Headheadphones() {
                 <Row className='rowone'>
                     <Col md="6" className='colone'>
                         {/* <img src="/images/headphone/headphones/images-10.png"></img> */}
-                        <img src="/images/headphone/airpods/S1_Image.png"></img>
+                        <img src="/images/S1_Image.png"></img>
                     </Col>
                     <Col md="6" className='coltwo'>
                         {/* <img src="/images/headphone/headphones/images-10.png"></img> */}
@@ -21,7 +21,7 @@ function Headheadphones() {
                 <Row className='rowtwo'>
                     <Col md="6" >
                         <div className='colone'>
-                        <img  src='/images/headphone/airpods/Airpods-PNG-Pic.png'></img>
+                        <img  src='/images/Airpods-PNG-Pic.png'></img>
 
                         </div>
                     </Col>
@@ -36,7 +36,7 @@ function Headheadphones() {
 
                 <Row className='rowthree'>
                     <Col className='colone'>
-                        <img src="/images/headphone/airpods/Proper-Web-images-2021-Airpods_dd2e28a3-0753-4e0f-bae7-b3133e59e414_1024x.png"></img>
+                        <img src="/images/Proper-Web-images-2021-Airpods_dd2e28a3-0753-4e0f-bae7-b3133e59e414_1024x.png"></img>
                     </Col>
                     <Col className='coltwo'>
                         <h1>An instant<br></br> connection.</h1>

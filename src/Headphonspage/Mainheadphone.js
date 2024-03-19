@@ -18,7 +18,7 @@ function Mainheadphone() {
                             running One UI 3.1 or later and watches that are Galaxy Watch4 Series or later. Devices must be logged
                             in to the same Samsung account and have Bluetooth and Wi-Fi turned on. Earbuds must be paired with both
                             your phone and tablet at least once.</h6>
-                        <img src="/images/headphone/headphones/Man-using-wireless-headphones-_-Photo-Shutterstock.jpg"></img>
+                        <img src="/images/Man-using-wireless-headphones-_-Photo-Shutterstock.jpg"></img>
                     </Col>
 
                 </Row>
@@ -40,7 +40,7 @@ function Mainheadphone() {
                             <i>8Feature only supported on devices running Samsung One UI 3.1 or later</i>
                     </Col>
                     <Col md="6" className='coltwo'>
-                        <img src="/images/headphone/headphones/images-10.png"></img>
+                        <img src="/images/images-10.png"></img>
                     </Col>
                 </Row>
             </Container>
